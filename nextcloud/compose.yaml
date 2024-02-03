@@ -10,7 +10,6 @@ services:
       - MYSQL_PASSWORD=mariadb
       - MYSQL_DATABASE=mariadb
       - MYSQL_USER=mariadb
-
   app:
     image: nextcloud
     restart: always
